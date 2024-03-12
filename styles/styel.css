@@ -326,3 +326,8 @@ input{
 .subtitulo-footer {
     color: #164880;
 }
+
+.documentacion {
+    padding-top: 0px;
+    margin-top:509px;
+}
