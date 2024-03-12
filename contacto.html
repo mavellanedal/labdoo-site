@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000527">
+    <meta name="description" contetn="Toda la informació sobre nuestro proyecto de síntesi, explicado en una sola página web, hecha con html y css.">
+    
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Toda la informació sobre nuestro proyecto de síntesi, explicado en una sola página web, hecha con html y css.">
+    <meta property="og:description" content="Reto 7 de la fase 2 del proyecto de síntesi">
+    <meta property="og:img" content="./images/logo-abdoo.png">
+    <meta property="og:img:alt" content="El logo de labdoo">
+    
+    <link rel="stylesheet" href="./styles/styel.css">
+    <link rel="icon" href="./images/icon-labdoo.webp">
+    <title>Contacto - Página web de nuestro poryrecto de Síntesis Fase2</title>
+    
+</head>
+<body>
+    <div class="site">
+        <header class="header">
+            <!--No se me hace mas alta pero si más ancha-->
+            <a href="./index.html" class="logo">
+                <image
+                class="animacion-hover"
+                height="75"
+                src="./images/icon-labdoo.png" 
+                alt="Icono de Labdoo" 
+                title="labdoo">
+            <nav class="nav-header">
+                <a href="./documentacion.html">Documentación</a>
+                <a href="./presupuesto.html">Presupuesto</a>
+                <a href="./contacto.html">Contactanos</a>
+            </nav>
+            <img 
+            height="50"
+            width="250"
+            class="logoderecha-header"
+            src="./images/logo-abdoo-heaader.webp" 
+            alt="Logo Labdoo"
+            style="padding-right: 50px; padding-bottom: 5px;">
+        </header>
+        <h2 class="titulo-form">Formulario <br>de <strong>contacto</strong></h2>
+        <section class="sec-formulario">
+            <form class="from" method="post" action="/">
+                <fieldset class="formulario">
+                    <legend><strong>Información personal</strong></legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input 
+                            type="text" 
+                            id="nombre" 
+                            name="nombre"
+                            placeholder="Albert Luque Sanz">
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email"
+                            placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div>
+                        <label for="telefono">Número de teléfono</label>
+                        <input 
+                            type="tel" 
+                            id="telefono" 
+                            name="telefono"
+                            placeholder="+34 645 78 23 24">
+                    </div>
+                </fieldset>
+
+                <fieldset class="formulario">
+                    <legend><strong>Orden de Ordenadores</strong></legend>
+                    <div>
+                        <label for="numero_ordenadores">Número de Ordenadores</label>
+                        <input type="number" id="numero_ordenadores" name="numero_ordenadores" min="1" required>
+                    </div>
+                    <div>
+                        <p>Selecciona el tipo de conexión</p>
+                        <input type="radio" id="cable" name="connection" value="cable">
+                        <label for="cable">Conexión por cable</label><br>
+                        <input type="radio" id="wifi" name="connection" value="wifi">
+                        <label for="wifi">Wi-Fi</label><br>
+                        <input type="radio" id="ambas" name="connection" value="ambas">
+                        <label for="ambas">Ambas</label><br>
+                    </div>
+                    <div>
+                        <label for="num_sales" class="labels">Selecciona el número de sales</label>
+                        <select id="num_sales" name="num_sales">
+                            <option value="1">1 sala</option>
+                            <option value="2">2 sales</option>
+                            <option value="3">3 sales</option>
+                            <option value="4">4 sales</option>
+                            <option value="5">5 sales</option>
+                            <option value="6">6 sales</option>
+                            <option value="7">7 sales</option>
+                            <option value="8">8 sales</option>
+                            <option value="9">9 sales</option>
+                            <option value="10">10 sales</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="formulario">
+                    <legend><strong>Comentarios extra</strong></legend>
+                    <div>
+                        <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="first-footer">
+            <div class="footer-left">
+                <div class="logo-footer">
+                    <a href="/">
+                        <img 
+                        width="150"
+                        height="150"
+                        src="./images/icon-labdoo.png" 
+                        alt="Logo de labdoo">
+                    </a>
+                </div>
+                <div class="redes-footer">
+                    <a href="https://www.instagram.com/labdoo_es/?hl=es" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/i-instagram.png" alt="icono de instagram">
+                    </a>
+                    <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj1q5vUh9OEAxXffKQEHQqHDvQQFnoECAwQAQ&url=https%3A%2F%2Ftwitter.com%2Flabdoo_es%3Flang%3Des&usg=AOvVaw23WI6KtXX9W9-_jQt1Mc9W&opi=89978449" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/i-twitter.png" alt="icono de tiwtter">
+                    </a>
+                    <a href="https://www.youtube.com/user/LabdooDACH" target="_blank" rel="noreferrer noopener">
+                        <img src="./images/i-youtube.png" alt="logo de youtube">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <h3>LEGAL</h3>
+                <ul class="lista-footer">
+                    <li>
+                        <a href="./legal.html" class="animacion">AVISO LEGAL</a>
+                    </li>
+                    <li>
+                        <a href="./privacidad.html" class="animacion">PRIVACIDAD</a>
+                    </li>
+                    <li>
+                        <a href="./cookies.html" class="animacion">COOKIES</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-webmap">
+                <h3>WEBMAP</h3>
+                <ul class="lista-footer">
+                    <li>
+                        <a href="./contacto.html" class="animacion">CONTACTO</a>
+                    </li>
+                    <li>
+                        <a href="./presupuesto.html" class="animacion">PRESUPUESTO</a>
+                    </li>
+                    <li>
+                        <a href="./documentacion.html" class="animacion">DOCUMENTACIÓN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h3>PRODUCIDO POR:</h3>
+                <a href="https://politecnics.barcelona/es/">
+                    <img 
+                    width="450"
+                    height="100"
+                    src="./images/logocdentro.png" alt="Logo Politecnics">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

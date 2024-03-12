@@ -1,0 +1,328 @@
+body{
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 21px;  
+}
+header{
+  display: flex;
+  min-height:70px;
+  background-color: #e87537;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  left: 0; 
+  top: 0; 
+  position: fixed; 
+}
+
+.logo img{
+    margin-right: 15px;
+}
+
+.logo {
+    width: 20%;
+}
+
+nav
+{
+    display: flex;
+    gap: 10px;
+    width: 70%;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    padding: 10px;
+}
+
+nav a:hover{
+    opacity: 70%;
+    scale: 1.2;
+    opacity: 70;
+    /*animation: neonGlow 1s infinite alternate cubic-bezier(.455,.03,.515,.955);*/
+}
+
+.animacion:hover {
+    opacity: 70%;
+    scale: 1.2;
+    opacity: 70;
+}
+/*Estilo de index.html*/
+
+.titulo-labdoo {
+    text-align: center;
+    color: #6b972d;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-top: 0px;
+}
+
+.video-labdoo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.site {
+    background: rgb(238,224,203);
+    background: linear-gradient(180deg, rgba(238,224,203,1) 0%, rgba(255,248,238,1) 36%);
+    
+}
+
+.img-overlay {
+    display: block;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+.what-title {
+    text-align: center;
+    color: #6b972d;
+    font-size: 30px;
+    padding-top: 58px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+#what-title-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.what-text {
+    text-align: center;
+    font-size: 25px;
+    color: #164880;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.content {
+    display: flex;
+    gap: 20px; 
+}
+
+.logoderecha-header {
+    width: 150px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.who-text {
+    text-align: left;
+    font-size: 25px;
+    color: #164880;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.foto-grupo{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.who-title { 
+    text-align: left;
+    font-size: 25px;
+    color: #6b972d;
+    padding-left: 50px;
+}
+/* Estilos Presupuesto*/
+
+.presupuesto {
+    background-color: rgb(238,224,203);
+    padding: 50px;
+}
+
+.titulo {
+    background-color: rgb(238,224,203,1);
+    padding-top: 145px;
+}
+
+.ti-tabla {
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #6b972d;
+}
+
+.tabla-presupuesto {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+} 
+
+table {
+    border-collapse: collapse;
+    border-color: black;
+}
+
+
+footer {
+    max-width: 100vw;
+    background-color: #e87537;
+    color: #fff;
+    z-index: 3;
+}
+
+.first-footer {
+    display: flex;
+    gap: 180px;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-footer {
+    margin-left: 8px;
+}
+
+.lista-footer {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+th {
+    color: #6b972d;
+    font-size: xx-large;
+    height: 70px;
+    border: solid 5px #164880;
+}
+
+td { 
+   text-align: center;
+   border: solid 5px #164880;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.precio { 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.medidas {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.unidades {
+    width: 30px;
+}
+
+.descripcion {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.no-border { 
+    border: 0px;
+}
+
+.total { 
+    border: solid 5px  #164880;
+    color: #6b972d;
+    padding: 10px;
+}
+
+.precio-total {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 5px  #164880;
+    color: black;
+    font-weight: bold;
+}
+
+.sec-formulario { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.titulo-form {
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #6b972d;
+    padding-top: 75px;
+}
+
+
+.formulario {
+    border: solid 5px #164880;
+    font-size: 20px;
+    text-align: left;
+    background-color: #e87537;
+}
+
+.form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+label{
+    padding-right: 20px;
+}
+
+legend {
+    color: #fff;
+    border: solid #164880 5px;
+    background-color:#e87537 ;
+}
+
+fieldset {
+    margin: 30px;
+}
+
+input{
+    text-align: left
+}
+
+
+.site-legal {
+   margin-top: 100px;
+   padding: 50px;
+   background: rgb(238,224,203);
+   background: linear-gradient(180deg, rgba(238,224,203,1) 0%, rgba(255,248,238,1) 36%);
+}
+
+.titulo-legal {
+    text-transform: uppercase;
+    text-align: left;
+    color: #6b972d;
+    font-size: 50px;
+}
+
+.subtitulo-footer {
+    color: #164880;
+}
