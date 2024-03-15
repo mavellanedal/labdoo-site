@@ -41,7 +41,104 @@
         style="padding-right: 50px; padding-bottom: 5px;">
     </header>
     <div class="documentacion">
-
+        <section id="punto1">
+            <h1 class="titulo-legal">Repte 1</h1> 
+            <h2 class="subtitulo-footer">Análisis de topologías red</h2>
+            <h4>Topología de Bus</h4>
+            <p>Una red en Bus es una red de ordenadores que se caracteriza por tener un único bus de comunicaciones, que es donde se conectan todos los dispositivos. Todos los dispositivos comparten un mismo canal de comunicación. Las estaciones están conectadas por un único segmento de cable. A diferencia de una red en anillo, el bus es pasivo, no se produce generación de señales en cada nodo o router. Esta topología tiene una facilidad de implementación y crecimiento, fácil adaptación, una arquitectura muy simple y es una red que utiliza poco espacio. </p>
+            <table>
+                <thead>
+                    <th><center>VENTAJAS</center></th>
+                    <th><center>DESVENTAJAS</center></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Facilidad de implementación y crecimiento</td>
+                        <td>Hay un límite de equipos dependiendo de la calidad de la señal.</td>
+                    </tr>
+                    <tr>
+                        <td>Fácil adaptación</td>
+                        <td>Puede producirse degradación de la señal.</td>
+                    </tr>
+                    <tr>
+                        <td>Arquitectura muy simple</td>
+                        <td>Complejidad de reconfiguración y aislamiento de fallos.</td>
+                    </tr>
+                    <tr>
+                        <td>Red que utiliza poco espacio</td>
+                        <td>Limitación de las longitudes físicas del canal.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Un problema en el canal usualmente degrada toda la red</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="../imagenes-documentacion/topologia-bus.PNG" alt="Imagen de la topología bus">
+            <h4>Topología de estrella</h4>
+            <p>Una red en estrella es una red de ordenadores donde los dispositivos están directamente conectados a un punto central y todas las comunicaciones se hacen necesariamente a través de ese punto (ordenador, repetidor, servidor, etc.). Los dispositivos no se conectan entre sí, por lo que evitamos problemas, en los que se rompe un ordenador y se pierde la comunicación de todos los que estén conectados a él. </p>
+            <p>Principalmente, se usa en redes LAN, compuestas de un switch o hub siguiendo la topología. En este caso, el punto central o nodo central sería el switch o el hub, por el que pasan todos los paquetes de los usuarios. </p>
+            <p>Un dato curioso y que puede servir de información es que Google utiliza esta topología para su plataforma. </p>
+            <img src="../imagenes-documentacion/topologia-estrella.PNG" alt="Imagen de la topología estrella">
+            <table>
+                <thead>
+                    <th><center>VENTAJAS</center></th>
+                    <th><center>DESVENTAJAS</center></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Posee un sistema que permite agregar nuevos equipos fácilmente</td>
+                        <td>Si el hub (repetidor) o switch central falla, toda la red deja de funcionar.</td>
+                    </tr>
+                    <tr>
+                        <td>Reconfiguración rápida de cada daño</td>
+                        <td>Es costosa, ya que requiere más cables que otras topologías.</td>
+                    </tr>
+                    <tr>
+                        <td>Fácil de prevenir daños y/o conflictos, puesto que no afecta a los demás equipos si ocurre un fallo</td>
+                        <td>El cable viaja por separado del concentrador a cada computador.</td>
+                    </tr>
+                    <tr>
+                        <td>Centralización de la red </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Fácil de encontrar fallos de cada uno de ellos</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>Topología de anillo</h4>
+            <p>La topología de anillo es una red en la cual los dispositivos están conectados en forma de anillo. Cada dispositivo está conectado a dos dispositivos más. Esta topología tiene varias características. En un anillo la comunicación entre los dispositivos solo va en una dirección ósea que es unidireccional. Utilizan repetidores que regeneran y retransmiten la señal, es confiable y estable, la expansión de anillo es difícil, ya que debes interrumpir su conexión para agregar otro dispositivo, y el rendimiento y velocidad no es de los mejores.</p>
+            <p>Un dato es que tiene un protocolo llamado “Token Ring”, donde se utiliza un "token" (un mensaje especial) que se pasa de un dispositivo a otro en el anillo. Solo el dispositivo que posee el token puede transmitir datos, lo que garantiza un acceso ordenado y sin colisiones.</p>
+            <img src="../imagenes-documentacion/topologia-anillo.PNG" alt="Imagen topología anillo">
+            <table>
+                <thead>
+                    <th><center>VENTAJAS</center></th>
+                    <th><center>DESVENTAJAS</center></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fácil de implementar y entender.</td>
+                        <td>Dificultad para expandirse y agregar nuevos nodos.</td>
+                    </tr>
+                    <tr>
+                        <td>La transmisión de datos es ordenada.</td>
+                        <td>Si un nodo falla o el anillo se rompe, la red queda inoperable hasta que se repare.</td>
+                    </tr>
+                    <tr>
+                        <td>La falla de un nodo no afecta a los demás.</td>
+                        <td>La detección y solución de problemas pueden ser complejas.La detección y solución de problemas pueden ser complejas.</td>
+                    </tr>
+                    <tr>
+                        <td>Adecuada para redes pequeñas y medianas</td>
+                        <td>La detección y solución de problemas pueden ser complejas.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>Topología de doble anillo</h4>
+            <p><strong><u>Ventajas:</u></strong>La topología de doble anillo se utiliza a menudo en redes de fibra óptica, donde proporciona redundancia y confiabilidad. Cada host de la red está conectado a ambos anillos, aunque los dos anillos no están conectados directamente entre sí. La característica principal de esta topología es que si una conexión falla en un anillo, la red todavía puede funcionar utilizando el otro anillo.</p>
+        </section>
     </div>
     <footer>
         <div class="first-footer">
